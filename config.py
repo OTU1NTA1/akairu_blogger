@@ -16,3 +16,4 @@ class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     BIND_HOST = os.getenv("BIND_HOST", "0.0.0.0")
     BIND_PORT = int(os.getenv("BIND_PORT", 8000))
+    SESSION_SECRET_KEY = os.getenv("SESSION_SECRET", "hahaha")

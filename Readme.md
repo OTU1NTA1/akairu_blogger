@@ -1,7 +1,7 @@
 # install dependencies
 
 ```
-  pip install fastapi uvicorn[standard] python-dotenv sqlalchemy aiomysql jinja2
+  pip install fastapi uvicorn[standard] python-dotenv sqlalchemy aiomysql jinja2 starlette itsdangerous
   pip install -r requirements.txt
 ```
 
