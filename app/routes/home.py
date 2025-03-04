@@ -1,3 +1,4 @@
+import time
 from typing import List
 
 from fastapi import APIRouter, Request
@@ -18,5 +19,5 @@ class HomeRouter(APIRouter):
 
     async def get_items(self, request: Request) -> List[Item]:
         return self.templates.TemplateResponse(
-            request=request, name="index.html", context={"id": id}
+            request=request, name="index.html", context={"id": time.time()}
         )
