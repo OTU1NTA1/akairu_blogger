@@ -1,7 +1,9 @@
 # install dependencies
 
 ```
-  pip install fastapi uvicorn[standard] python-dotenv sqlalchemy aiomysql jinja2 starlette itsdangerous
+  pip install fastapi uvicorn[standard] python-dotenv sqlalchemy
+  pip install aiomysql jinja2 starlette itsdangerous
+  pip install bcrypt email_validator
   pip install -r requirements.txt
 ```
 
